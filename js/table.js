@@ -1,4 +1,4 @@
-export let isiTable = `
+export let isiTabel = `
 <tr class="h-18 border-b border-coolGray-100">
 <th class="whitespace-nowrap px-4 bg-white text-left">
   <div class="flex items-center -m-2">
