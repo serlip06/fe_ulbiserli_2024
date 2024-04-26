@@ -4,3 +4,6 @@ get(urlAPI,isiTablePresensi);
 function isiTablePresensi(results){
     console.log(results);
 }
+function isiRow(value){
+    console.log(value)
+}
