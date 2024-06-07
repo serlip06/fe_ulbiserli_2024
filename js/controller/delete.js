@@ -15,3 +15,9 @@ function deleteData(IDHAPUS) {
         })
         .catch(error => console.log('Error:', error));
 }
+//fungtion yang berfungsi untuk mengkonfirmasi apakah datanya inggin di hapus 
+function confirmDelete(IDHAPUS) {
+    if (confirm("Apakah ingin menghapus data ID " + IDHAPUS + "?")) {
+        deleteData(IDHAPUS);
+    }
+}
